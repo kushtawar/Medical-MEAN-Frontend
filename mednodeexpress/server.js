@@ -20,7 +20,7 @@ console.log(myenv);
 console.log(myinstanceurl); 
 
 
-app.use(cors({ origin: myinstanceurl }));
+app.use(cors({ origin: "'"+myinstanceurl+"'" }));
 
 
 
