@@ -1,0 +1,19 @@
+{
+    "family": "mednodetask",
+    "containerDefinitions": [
+      {
+        "image": "916262176087.dkr.ecr.ap-south-1.amazonaws.com/meannoderepo:latest",
+        "name": "meannoderepo71",
+        "cpu": 10,
+        "memoryReservation": 300,
+        "essential": true,
+        "portMappings": [
+          {
+            "hostPort": 3000,
+            "containerPort": 3000,
+            "protocol": "tcp"
+          }
+        ]
+      }
+    ]
+  }

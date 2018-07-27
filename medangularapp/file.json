@@ -1,0 +1,24 @@
+{
+  "family": "sample-app",
+  "containerDefinitions": [
+    {
+      "image": "foo",
+      "name": "sample-app-service",
+      "cpu": 10,
+      "memoryReservation": 300,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8003,
+          "hostPort": 8003
+        }
+      ],
+      "environment": [
+        {
+          "name": "spring.profiles.active",
+          "value": "qa"
+        }
+      ]
+    }
+  ]
+}

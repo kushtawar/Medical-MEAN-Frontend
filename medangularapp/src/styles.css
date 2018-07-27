@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+form div.input-field input{
+    padding-left: 15px !important;
+    color: #25a297;
+}
+
+input.ng-invalid.ng-dirty{
+    border-bottom-color : #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+
+.input-field>label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-custom,.btn-custom:hover,.btn-custom:focus{
+    background-color: transparent;
+    font-size: 1.1rem;
+    margin : 0px 5px;
+    border: #fff solid 1px ;
+    text-transform:none;
+}
+
+div.card{
+    background-color : #547a0e;
+    border-radius: 8px;
+}
+
+.vl {
+    border-left: 2px solid #9e9e9e;
+    height: 400px;
+}
+
+a.action-btn{
+    color: #9e9e9e ;
+    margin: 0px 5px;
+
+}
+a.action-btn:hover{
+    cursor: pointer;
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left:7%;
+  }
+
+ 
+
+
+.s7{
+/*background-color: #465566;*/
+padding-left: 20rem;
+  }
+  .formheader{
+     
+      background-color: transparent;
+      text-align: center;
+      font-size: larger;
+      
+  }
+  thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: #e91e63;
+    color: black;
+    font: bolder;
+}
+table {
+    
+    background-color: rgb(90, 138, 92);
+    border-radius: 8px;
+
+}

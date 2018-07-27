@@ -1,0 +1,25 @@
+version: '2' # specify docker-compose version
+
+# Define the services/containers to be run
+services:
+  angular: # name of the first service
+    build: medangularapp # specify the directory of the Dockerfile
+    ports:
+      - "4200:4200" # specify port forwarding
+    
+
+
+  express: #name of the second service
+    build: mednodeexpress # specify the directory of the Dockerfile
+    ports:
+      - "3000:3000" #specify ports forwarding
+
+
+#Next Steps
+# context: .  
+ #      dockerfile: Dockerfile
+  #     args:
+  #         instanceurl: http://chandankushtawar.com
+#
+#Handle exit codes of containers
+    
