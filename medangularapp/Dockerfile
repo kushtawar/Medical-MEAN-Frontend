@@ -13,7 +13,7 @@ COPY package.json /usr/src/app
 COPY env.json /usr/src/app
 
 # Install dependecies
-RUN npm install -g nodemailer
+#RUN npm install -g nodemailer
 RUN npm install
 
 # Get all the code needed to run the app
