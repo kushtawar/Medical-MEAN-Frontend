@@ -12,7 +12,7 @@ COPY package.json /usr/src/app
 
 COPY env.json /usr/src/app
 
-COPY src/favicon.ico /usr/src/app
+#COPY src/favicon.ico /usr/src/app
 
 
 # Install dependecies
