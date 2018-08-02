@@ -4,7 +4,7 @@
         <div class="card-content white-text">
           <div class="row">
             <div class="col s5"> 
-              <form class="formheader" #productForm="ngForm" (ngSubmit)="onSubmit(productForm)"> Product Details 133
+              <form class="formheader" #productForm="ngForm" (ngSubmit)="onSubmit(productForm)"> Product Details
                 <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="productService.selectedProduct._id">
                 <div class="row">
                   <div class="input-field col s12">
@@ -33,12 +33,14 @@
                   </div>
                 </div>
                 <div class="row">
+                    
                   <div class="input-field col s12">
                     <button class="btn btn-custom right" type="button" (click)="resetForm(productForm)">Reset</button>
                     <button class="btn btn-custom right" type="submit" [disabled]="!productForm.valid">Submit</button>
                   </div>
                 </div>
               </form>
+              <div class="version">version 133 02-Aug-2018 11:04</div>
             </div>
             <div class="col s7">
                 <table class="responsive-table highlight">

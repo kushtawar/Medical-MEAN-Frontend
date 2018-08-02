@@ -23,7 +23,7 @@ input.ng-invalid.ng-dirty{
 }
 
 div.card{
-    background-color : #547a0e;
+    background-color : #393a38;
     border-radius: 8px;
 }
 
@@ -71,7 +71,12 @@ padding-left: 20rem;
 }
 table {
     
-    background-color: rgb(90, 138, 92);
+    background-color: rgb(218, 64, 17);
     border-radius: 8px;
 
+}
+.version{
+    font-size: xx-small;
+    color: #b01ee9;
+    text-align: left;
 }
