@@ -6,7 +6,7 @@
         <div class="card-content white-text">
           <div class="row">
             <div class="col s5"> 
-              <form class="formheader" #productForm="ngForm" (ngSubmit)="onSubmit(productForm)"> Product Details
+              <form class="formheader" #productForm="ngForm" (ngSubmit)="onSubmit(productForm)"> Product Details 1002
                 <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="productService.selectedProduct._id">
                 <div class="row">
                   <div class="input-field col s12">
@@ -48,9 +48,6 @@
                 </div>
               </form>
              
-              <!-- <p align="left" style="position:fixed;bottom:4em;"></p><button type="button" class="btnsmall" ng-click="count = count +1" ng-init="count=0"><i class="glyphicon glyphicon-info-sign" style="color:white"></i></button></p> -->
-              <!-- <div id="divversion" align="left" style="position:fixed;bottom:4em;">version 137 02-Aug-2018 14:54 Hours IST {{ count }}</div> -->
-              
 
             </div>
             
