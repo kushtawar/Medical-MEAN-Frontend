@@ -23,8 +23,9 @@ input.ng-invalid.ng-dirty{
 }
 
 div.card{
-    background-color : #393a38;
+    background-color:rgb(5, 83, 72);
     border-radius: 8px;
+   
 }
 
 .vl {
@@ -71,12 +72,43 @@ padding-left: 20rem;
 }
 table {
     
-    background-color: rgb(180, 46, 6);
+    background-color:rgb(43, 73, 43);
     border-radius: 8px;
+    margin-left: 0.5em;
+    margin-right: 2em;
 
 }
-.version{
+#divversion{
     font-size: xx-small;
-    color: #b01ee9;
+    color: #e91edf;
     text-align: left;
+    padding-top: 1em;
+    color: #e27c1c;
+    
+}
+
+.btnsmall{
+    background-color: transparent;
+    position: relative;
+    /* margin-top:10em; */
+    
+
+}
+
+.containerbody{
+    background-color: #393a38;
+    
+    
+}
+.row{
+    
+    margin-left:0.5em;
+    margin-right: 0.5em;
+   
+}
+
+.btnsmall{
+    background-color: transparent;
+    border:transparent;
+
 }

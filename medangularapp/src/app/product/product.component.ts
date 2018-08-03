@@ -16,6 +16,8 @@ declare var M: any;
 
 export class ProductComponent implements OnInit {
 
+  public infobutton=false;
+
   constructor(private productService: ProductService) { }
 
   ngOnInit() {
@@ -24,6 +26,7 @@ export class ProductComponent implements OnInit {
   }
   resetForm(form?: NgForm){
     console.log("In reset form");
+    this.infobutton=false;
     if (form){
       form.reset();
     }
@@ -57,14 +60,17 @@ export class ProductComponent implements OnInit {
    
   }
   }
+  
   refreshProductList() {
     this.productService.getProductList().subscribe((res) => {
       this.productService.products = res as Product[];
+      this.infobutton=false;
     });
   }
 
     onEdit(prod : Product){
       console.log("inedit");
+      this.infobutton=true;
       this.productService.selectedProduct=prod;
     }
     onDelete(_id: string, form: NgForm) {
@@ -77,4 +83,13 @@ export class ProductComponent implements OnInit {
       }
     }
 
+    public edited = false;
+    msg = "";
+    nCnt: number = 0;
+    myfunc() {
+      this.edited=!this.edited;
+        this.nCnt = this.nCnt + 8;
+        this.msg = "Clicked: " + this.nCnt;
+
+    }
 }

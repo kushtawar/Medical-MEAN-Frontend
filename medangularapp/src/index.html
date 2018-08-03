@@ -2,17 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>101MedAngularApp</title>
+  <title>MedAngularApp</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
-  <app-root></app-root>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+
+
+<body ng-app="myApp">
+    
+    <script>
+    angular.module('myApp', [])
+    .controller('myCtrl', ['$scope', function($scope) {
+        $scope.count = 0;
+        $scope.myFunc = function() {
+            $scope.count++;
+        };
+    }]);
+    </script>
+  
+  
+  <app-root>
+      
+  </app-root>
+ 
+  <!-- <p align="left" style="position:fixed;bottom:4em;"><button type="button" class="btnsmall" ng-click="count = count +1" ng-init="count=0"><i class="glyphicon glyphicon-info-sign" style="color:blue"></i></button></p>
+  <div id="divversion" align="left">version 137 02-Aug-2018 14:54 Hours IST {{ count }}</div> -->
+
+    
 </body>
 </html>
