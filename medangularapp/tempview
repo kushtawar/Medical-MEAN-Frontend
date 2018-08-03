@@ -1,0 +1,17 @@
+
+> med-angular-app@0.0.0 start /Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/medangularapp
+> ng serve -H 0.0.0.0
+
+** NG Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+webpack: wait until bundle finished: /
+webpack: wait until bundle finished: /
+[0mDate: [1m[37m2018-08-03T17:24:04.035Z[39m[22m[0m
+[0mHash: [1m[37md1aa4d0ca7e63763952f[39m[22m[0m
+[0mTime: [1m[37m17895[39m[22mms[0m
+[0mchunk {[1m[33minline[39m[22m} [1m[32minline.bundle.js[39m[22m (inline) 5.79 kB [1m[33m[entry][39m[22m[1m[32m [rendered][39m[22m[0m
+[0mchunk {[1m[33mmain[39m[22m} [1m[32mmain.bundle.js[39m[22m (main) 51.9 kB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+[0mchunk {[1m[33mpolyfills[39m[22m} [1m[32mpolyfills.bundle.js[39m[22m (polyfills) 568 kB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+[0mchunk {[1m[33mstyles[39m[22m} [1m[32mstyles.bundle.js[39m[22m (styles) 39.6 kB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+[0mchunk {[1m[33mvendor[39m[22m} [1m[32mvendor.bundle.js[39m[22m (vendor) 8.58 MB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+
+webpack: Compiled successfully.
