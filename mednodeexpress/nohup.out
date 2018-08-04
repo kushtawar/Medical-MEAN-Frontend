@@ -8,3 +8,168 @@ http://localhost:4200
 API is running on localhost:3000
 Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
 MongoDB connection succeeded.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:21190) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+API is running on localhost:3000
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+MongoDB connection succeeded.
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:22427) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (/Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/mednodeexpress/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/mednodeexpress/server.js:28:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:22548) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (/Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/mednodeexpress/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/mednodeexpress/server.js:28:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:22808) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+API is running on localhost:3000
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+MongoDB connection succeeded.
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:23228) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+API is running on localhost:3000
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+MongoDB connection succeeded.
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:28556) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+API is running on localhost:3000
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+MongoDB connection succeeded.
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:29153) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (/Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/mednodeexpress/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/mednodeexpress/server.js:28:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:29240) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1351:14)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (/Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/mednodeexpress/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/kushtawar/Documents/Tutorials/DockerMS/ProductCRUDApp/mednodeexpress/server.js:28:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.17.5[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+test
+http://localhost:4200
+(node:29391) DeprecationWarning: `openSet()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+API is running on localhost:3000
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+MongoDB connection succeeded.
+nohup: exec.sh: No such file or directory
+nohup: exec.sh: No such file or directory
