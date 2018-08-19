@@ -1,12 +1,18 @@
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <div class="row">
-    <div>
+    <div class=maindiv>
     <div class="col s12">
       <div class="card">
+        
         <div class="card-content white-text">
           <div class="row">
+              <div>     
+                  <!-- <div id="formheader">
+                      <img width="5%" height="5%" src="../../assets/images/2121.png" alt="Description">
+                  </div> -->       
+                  <img width="100%" height="400px" align="middle" style="margin:0px 2px 10px 2px; border-radius: 8px;" src="../../assets/images/hospitalph.jpg" alt="Description">
+                </div>
             <div class="col s5"> 
-              <form class="formheader" #productForm="ngForm" (ngSubmit)="onSubmit(productForm)"> Product Details 1005
+              <form class="formheader" #productForm="ngForm" (ngSubmit)="onSubmit(productForm)"> 
                 <input type="hidden" name="_id" #_id="ngModel" [(ngModel)]="productService.selectedProduct._id">
                 <div class="row">
                   <div class="input-field col s12">
@@ -44,14 +50,15 @@
                      </div>
                     <button class="btn btn-custom right" type="button" (click)="resetForm(productForm)">Reset</button>
                     <button class="btn btn-custom right" type="submit" [disabled]="!productForm.valid">Submit</button>
+                    <button class="btn btn-custom left" type="button" (click)="showdb()">View</button>
                   </div>
                 </div>
               </form>
              
 
             </div>
-            
-            <div class="col s7">
+          
+            <div class="col s7" *ngIf="showdbvalues">
                 <table class="table">
                     <thead>
                       <tr>
@@ -66,7 +73,7 @@
                       <td>{{prod.productassetid}}</td>
                       <td>{{prod.productweight}}</td>
                       <td>
-                          <a class="action-btn" style="color: blue" (click)="onEdit(prod)">
+                          <a class="action-btn" style="color: rgb(31, 31, 36)" (click)="onEdit(prod)">
                             <i class="material-icons">edit</i>
                           </a>
                           <a class="action-btn" (click)="onDelete(prod._id,productForm)">

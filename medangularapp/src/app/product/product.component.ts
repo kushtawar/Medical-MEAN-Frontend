@@ -17,7 +17,7 @@ declare var M: any;
 export class ProductComponent implements OnInit {
 
   public infobutton=false;
-
+  public showdbvalues = false;
   constructor(private productService: ProductService) { }
 
   ngOnInit() {
@@ -26,6 +26,7 @@ export class ProductComponent implements OnInit {
   }
   resetForm(form?: NgForm){
     console.log("In reset form");
+    this.showdbvalues=false;
     this.infobutton=false;
     if (form){
       form.reset();
@@ -91,5 +92,9 @@ export class ProductComponent implements OnInit {
         this.nCnt = this.nCnt + 8;
         this.msg = "Clicked: " + this.nCnt;
 
+    }
+
+    showdb() {
+this.showdbvalues=true;
     }
 }
