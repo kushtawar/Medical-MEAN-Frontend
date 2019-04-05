@@ -2,7 +2,7 @@
     "family": "mednodetask",
     "containerDefinitions": [
       {
-        "image": "916262176087.dkr.ecr.ap-south-1.amazonaws.com/meannoderepo:latest",
+        "image": "916262176087.dkr.ecr.eu-west-2.amazonaws.com/meannoderepo:latest",
         "name": "meannoderepo71",
         "cpu": 10,
         "memoryReservation": 300,
